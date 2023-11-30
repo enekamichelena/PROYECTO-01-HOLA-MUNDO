@@ -8,16 +8,45 @@
 nav{
 
   width: 100%;
-  height: 10vh;
-  background-color: aquamarine;
+  background-color: rgb(41, 41, 41);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 header{
   width: 100%;
   height: 90vh;
   background-color: bisque;
+}
+h1{
+  font-size: 2.5rem;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+.nav_interior{
+  width: 100%;
+  height: 10vh;
+}
+#nav_arriba{
+  background-color: rgb(70, 70, 70);
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+#nav_abajo{
+  background-color: rgb(117, 113, 113);
+}
+#nav_abajo ul{
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
